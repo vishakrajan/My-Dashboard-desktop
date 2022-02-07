@@ -124,7 +124,6 @@
     .column {
       float: left;
     }
-    
     .row:after {
       content: "";
       display: table;
@@ -138,16 +137,15 @@
       padding: 16px 20px;
       background-color: red;
       color: white;
-    
     }
     .button-red:hover{
       background-color: #ff8888;
       transform: translateY(-3px);
       cursor: pointer;
-
+      color: black;
       box-shadow: rgb(216, 216, 216);
       box-shadow: 4px 4px 4px;
-      
+      font-weight: bold;
     }
     .button-red:active{
       background-color: #FF9E9E;
@@ -158,7 +156,7 @@
       font-weight: bold;
       font-family: 'Poppins', sans-serif;
       border: solid white;
-      
+      font-weight: bold;
       border-radius: 50px;
       padding: 16px 20px;
       background-color: rgba(0, 0, 255, 0);
@@ -167,6 +165,7 @@
     .button-blue:hover{
       background-color: white;
       color: black;
+      font-weight: bold;
       cursor: pointer;
       transform: translateY(-3px);
       box-shadow: rgb(216, 216, 216);
